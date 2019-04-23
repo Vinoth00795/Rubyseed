@@ -35,6 +35,6 @@ puts my_lambda.call(2)
 #         from practice6.rb:18:in `<main>'
 
 # Comments
-# We can see that I have mentioned two arrguments in both, but supplied only one.
+# We can see that I have mentioned two arrguments in both, both works well in #Ex1 having two params. But supplied only one in #Ex1.
 # In proc it works but in lambda it won't. This is the difference between proc and lambda.
 # Lamnda has a strict arrgument checking, proc will exceute the result with the available data.
