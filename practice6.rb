@@ -18,7 +18,6 @@ puts my_proc.call(2)
 puts my_lambda.call(2)
 
 
-
 # Output
 # Blocks prints 1
 # Blocks prints 2
