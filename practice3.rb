@@ -17,6 +17,7 @@ class Seperator
         while val.length>1 do
             $split = val.split('') #splits the string into an array
             slice = $split.slice!(1) # remove second index of the array
+            slice = $split.slice!(2) # remove second index of the array
             val = $split.join # join the array into string and set the val to the current string 
             print val
         end
